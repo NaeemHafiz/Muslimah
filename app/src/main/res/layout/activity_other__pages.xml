@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/orange"
+    android:layout_height="match_parent"
+    tools:context=".Other_Pages">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius="10dp">
+
+            <TextView
+                android:id="@+id/tv_aboutuss"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="5sp"
+                android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+                android:padding="5dp"
+                android:text="About Us"
+                android:textSize="18sp" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius="10dp">
+
+            <TextView
+                android:id="@+id/contact_us"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="5sp"
+                android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+                android:padding="5dp"
+                android:text="Contact Us"
+                android:textSize="18sp" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius="10dp">
+
+            <TextView
+                android:id="@+id/success_story"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="5sp"
+                android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+                android:padding="5dp"
+                android:text="Success Stories"
+                android:textSize="18sp" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius="10dp">
+
+            <TextView
+                android:id="@+id/o_pdatingsafety"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="5sp"
+                android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+                android:padding="5dp"
+                android:text="Dating Safety"
+                android:textSize="18sp" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius="10dp">
+
+            <TextView
+                android:id="@+id/o_ptermsuse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="5sp"
+                android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+                android:padding="5dp"
+                android:text="Terms of use"
+                android:textSize="18sp" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius="10dp">
+
+            <TextView
+                android:id="@+id/o_psitemap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="5sp"
+                android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+                android:padding="5dp"
+                android:text="Top Site Map"
+                android:textSize="18sp" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius="10dp">
+
+            <TextView
+                android:id="@+id/o_pprivacystatement"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="5sp"
+                android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+                android:padding="5dp"
+                android:text="Privacy Statement"
+                android:textSize="18sp" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius="10dp">
+
+            <TextView
+                android:id="@+id/o_pcokkiespolicies"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="10sp"
+                android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+                android:padding="5dp"
+                android:text="Cookies Plicy"
+                android:textSize="18sp" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius="10dp">
+
+        <TextView
+            android:id="@+id/o_imbra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="5sp"
+            android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+            android:padding="5dp"
+            android:text="IMBRA Pamphlet"
+            android:textSize="18sp" />
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</LinearLayout>

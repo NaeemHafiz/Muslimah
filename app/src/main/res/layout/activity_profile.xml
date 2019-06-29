@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Profile">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/profilebckground"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/image_profile"
+                    android:layout_width="100dp"
+                    android:layout_height="99dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="70dp"
+                    android:src="@drawable/profile"
+                    app:civ_border_color="#fff"
+                    app:civ_border_width="2dp" />
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10sp"
+                    android:text="Name"
+                    android:textColor="#fff"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10sp"
+                    android:text="City, Province, Country"
+                    android:textColor="#fff"
+                    android:textSize="30sp" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="#ADB6B6"
+                android:text="View My Profile"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_photos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="10sp"
+                    android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+                    android:text="Photos"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <view
+                    android:id="@+id/view_photos"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#eee" />
+
+                <TextView
+                    android:id="@+id/tv_profile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="10sp"
+                    android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+                    android:text="Profile"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <view
+                    android:id="@+id/view_profile"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#eee" />
+
+                <TextView
+                    android:id="@+id/tv_match"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="10sp"
+                    android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+                    android:text="Match"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <view
+                    android:id="@+id/view_match"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#eee" />
+
+                <TextView
+                    android:id="@+id/tv_interest"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="10sp"
+                    android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+                    android:text="Interest"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <view
+                    android:id="@+id/view_interest"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#eee" />
+
+                <TextView
+                    android:id="@+id/tv_verifyprofile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="10sp"
+                    android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+                    android:text="Verify profile"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#eee"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/image_membership"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:background="#000"
+                    android:src="@drawable/ic_person_black_24dp" />
+
+                <TextView
+                    android:id="@+id/tv_membershipp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Your current membership grade is standard"
+                    android:textSize="28sp" />
+
+                <Button
+                    android:id="@+id/btn_upgrade"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#48a90a"
+                    android:text="UPGRADE NOW"
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/tv_photos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="10sp"
+                    android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+                    android:text="Photos"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <view
+                    android:id="@+id/view_photos"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#eee" />
+
+                <TextView
+                    android:id="@+id/tv_profile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="10sp"
+                    android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+                    android:text="Profile"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <view
+                    android:id="@+id/view_profile"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#eee" />
+
+                <TextView
+                    android:id="@+id/tv_match"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="10sp"
+                    android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+                    android:text="Match"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <view
+                    android:id="@+id/view_match"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#eee" />
+
+                <TextView
+                    android:id="@+id/tv_interest"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="10sp"
+                    android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+                    android:text="Interest"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <view
+                    android:id="@+id/view_interest"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#eee" />
+
+                <TextView
+                    android:id="@+id/tv_verifyprofile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="10sp"
+                    android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+                    android:text="Verify profile"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#eee"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/image_membership"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:background="#000"
+                    android:src="@drawable/ic_person_black_24dp" />
+
+                <TextView
+                    android:id="@+id/tv_membershipp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Your current membership grade is standard"
+                    android:textSize="28sp" />
+
+                <Button
+                    android:id="@+id/btn_upgrade"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#48a90a"
+                    android:text="UPGRADE NOW"
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

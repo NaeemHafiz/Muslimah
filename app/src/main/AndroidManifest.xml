@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.muslima">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcheralazwaj"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".My_NewProfile"></activity>
+        <activity android:name=".Other_Pages" />
+        <activity android:name=".Help" />
+        <activity android:name=".Setting" />
+        <activity android:name=".My_Profile" />
+        <activity android:name=".SearchActivity" />
+        <activity android:name=".MessagesActivity" />
+        <activity android:name=".TestimonialActivity" />
+        <activity android:name=".GalleryActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".ForgottenPassword" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NavigationActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Pop" />
+    </application>
+
+</manifest>

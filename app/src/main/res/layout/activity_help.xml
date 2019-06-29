@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Help">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content">
+
+
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/textviewhelp"
+    android:hint="Search Help"
+    android:gravity="center"
+    android:textColorHint="@color/orange"
+    android:textSize="17dp"/>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        app:cardCornerRadius="10dp">
+
+        <TextView
+            android:id="@+id/tv_helpcategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="10sp"
+            android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+            android:padding="5dp"
+            android:text="Help Category"
+            android:textSize="18sp" />
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        app:cardCornerRadius="10dp">
+
+        <TextView
+            android:id="@+id/tv_photos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="10sp"
+            android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+            android:padding="5dp"
+            android:text="Top Question"
+            android:textSize="18sp" />
+
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/green"
+        android:text="Request Help"
+        android:textSize="15dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>
+</LinearLayout>
