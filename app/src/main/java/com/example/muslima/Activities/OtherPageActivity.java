@@ -5,7 +5,7 @@ import android.os.Bundle;
 
 import com.example.muslima.R;
 
-public class OtherPagesActivity extends AppCompatActivity {
+public class OtherPageActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

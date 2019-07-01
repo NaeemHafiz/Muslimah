@@ -86,7 +86,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
             Toast.makeText(this, "fhkf", Toast.LENGTH_SHORT).show();
 
         } else if (id == R.id.nav_msg) {
-            startActivity(new Intent(this, MessagesActivity.class));
+            startActivity(new Intent(this, MessageActivity.class));
 
         } else if (id == R.id.nav_search) {
             startActivity(new Intent(this, SearchActivity.class));
@@ -99,7 +99,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         } else if (id == R.id.nav_help) {
             startActivity(new Intent(this, HelpActivity.class));
         } else if (id == R.id.nav_otherpages) {
-            startActivity(new Intent(this, OtherPagesActivity.class));
+            startActivity(new Intent(this, OtherPageActivity.class));
 
         }
 

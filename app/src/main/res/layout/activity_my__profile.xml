@@ -88,6 +88,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
+
                 <android.support.v7.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -120,8 +121,8 @@
                         android:layout_marginLeft="10sp"
                         android:layout_marginTop="10sp"
                         android:drawableRight="@drawable/ic_chevron_right_black_24dp"
-                        android:padding="5dp"
                         android:onClick="newprofle"
+                        android:padding="5dp"
                         android:text="Profile"
                         android:textSize="18sp" />
 
@@ -208,9 +209,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:gravity="center"
                     android:layout_marginTop="5dp"
                     android:layout_marginBottom="5dp"
+                    android:gravity="center"
                     android:text="Your current membership grade is standard"
                     android:textSize="18sp" />
 

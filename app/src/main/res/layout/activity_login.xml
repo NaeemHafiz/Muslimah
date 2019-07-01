@@ -50,7 +50,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="25dp"
                 android:text="Password"
                 android:textColor="#fff"
                 android:textSize="30sp"
@@ -105,9 +105,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="30dp"
+                    android:layout_marginRight="10dp"
                     android:background="@color/green"
                     android:text="Login"
-                    android:layout_marginRight="10dp"
                     android:textColor="#fff"
                     android:textSize="20dp"
                     android:textStyle="bold" />
@@ -177,13 +177,7 @@
                     android:text="Forgot Password"
                     android:textColor="#fff"
                     android:textSize="20sp" />
-
-
             </LinearLayout>
-
         </LinearLayout>
-
-
     </ScrollView>
-
 </RelativeLayout>

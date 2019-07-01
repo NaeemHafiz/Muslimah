@@ -1,6 +1,5 @@
 package com.example.muslima.Activities;
 
-import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -9,7 +8,7 @@ import android.widget.TextView;
 
 import com.example.muslima.R;
 
-public class MessagesActivity extends AppCompatActivity {
+public class MessageActivity extends AppCompatActivity {
     Button btn_recieve, btn_sent, btn_seesinglesnow;
     TextView tv_recsent, tv_msgdescp, tv_currentmsg, tv_frstmove, tv_communication_desc;
 
