@@ -111,7 +111,7 @@ public class NavigationActivity extends AppCompatActivity
         btn_counselor.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(NavigationActivity.this, Pop.class);
+                Intent intent = new Intent(NavigationActivity.this, PopActivity.class);
                 startActivity(intent);
 
             }

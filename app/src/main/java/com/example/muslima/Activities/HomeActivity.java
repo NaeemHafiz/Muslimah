@@ -92,14 +92,14 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
             startActivity(new Intent(this, SearchActivity.class));
         } else if (id == R.id.nav_profile) {
 
-            startActivity(new Intent(this, My_Profile.class));
+            startActivity(new Intent(this, MyProfileActivity.class));
         } else if (id == R.id.nav_setting) {
-            startActivity(new Intent(this, Setting.class));
+            startActivity(new Intent(this, SettingActivity.class));
 
         } else if (id == R.id.nav_help) {
-            startActivity(new Intent(this, Help.class));
+            startActivity(new Intent(this, HelpActivity.class));
         } else if (id == R.id.nav_otherpages) {
-            startActivity(new Intent(this, Other_Pages.class));
+            startActivity(new Intent(this, OtherPagesActivity.class));
 
         }
 

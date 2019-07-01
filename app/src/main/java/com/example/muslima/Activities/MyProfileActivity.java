@@ -7,7 +7,7 @@ import android.view.View;
 
 import com.example.muslima.R;
 
-public class My_Profile extends AppCompatActivity {
+public class MyProfileActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,7 +16,7 @@ public class My_Profile extends AppCompatActivity {
     }
 
     public void newprofle(View view) {
-        startActivity(new Intent(this, My_NewProfile.class));
+        startActivity(new Intent(this, MyNewProfileActivity.class));
     }
 
 }

@@ -19,7 +19,7 @@ import com.google.android.gms.tasks.OnSuccessListener;
 
 import java.util.concurrent.Executor;
 
-public class ForgottenPassword extends AppCompatActivity {
+public class ForgotPasswordActivity extends AppCompatActivity {
     TextView tv_emailforgot, tv_code, tv_desc_code;
     EditText et_enteremailforgot, et_entercode;
     Button btn_reset_password;

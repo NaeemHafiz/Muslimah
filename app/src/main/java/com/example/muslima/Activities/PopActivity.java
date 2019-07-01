@@ -10,7 +10,7 @@ import android.widget.EditText;
 
 import com.example.muslima.R;
 
-public class Pop extends Activity {
+public class PopActivity extends Activity {
     Button btn_save;
 
     EditText et_username, et_useremail, et_userpassword, et_userphone, et_usercnic;
@@ -37,6 +37,6 @@ public class Pop extends Activity {
     }
 
     public void popup(View view) {
-        startActivity(new Intent(Pop.this, My_Profile.class));
+        startActivity(new Intent(PopActivity.this, MyProfileActivity.class));
     }
 }
