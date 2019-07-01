@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/drawer_layout2"
-    tools:context=".HomeActivity">
+    tools:context=".Activities.HomeActivity">
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -13,7 +13,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/r_layout"
-    tools:context=".HomeActivity">
+    tools:context=".Activities.HomeActivity">
 
    <include
        layout="@layout/hometoolbar"

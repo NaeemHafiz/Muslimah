@@ -1,4 +1,4 @@
-package com.example.muslima;
+package com.example.muslima.Activities;
 
 import android.content.Intent;
 import android.support.design.widget.NavigationView;
@@ -14,6 +14,8 @@ import android.view.MenuItem;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
+import com.example.muslima.R;
+
 public class HomeActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     Toolbar toolbar1;
     DrawerLayout drawer_layout2;
@@ -21,16 +23,15 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
     NavigationView navview_home;
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
- toolbar1=findViewById(R.id.toolbar1);
+        toolbar1 = findViewById(R.id.toolbar1);
         setSupportActionBar(toolbar1);
-        drawer_layout2=findViewById(R.id.drawer_layout2);
-        r_layout=findViewById(R.id.r_layout);
-        navview_home=findViewById(R.id.navview_home);
+        drawer_layout2 = findViewById(R.id.drawer_layout2);
+        r_layout = findViewById(R.id.r_layout);
+        navview_home = findViewById(R.id.navview_home);
         navview_home.setNavigationItemSelectedListener(this);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer_layout2, toolbar1, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -38,6 +39,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         toggle.syncState();
 
     }
+
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = findViewById(R.id.drawer_layout2);
@@ -47,6 +49,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
             super.onBackPressed();
         }
     }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -57,6 +60,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         return true;
 
     }
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
@@ -73,6 +77,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         return super.onOptionsItemSelected(item);
 
     }
+
     public boolean onNavigationItemSelected(MenuItem menuItem) {
         // Handle navigation view item clicks here.
         int id = menuItem.getItemId();
@@ -80,27 +85,21 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         if (id == R.id.nav_home1) {
             Toast.makeText(this, "fhkf", Toast.LENGTH_SHORT).show();
 
-        }
-        else if (id == R.id.nav_msg) {
-            startActivity(new Intent(this,MessagesActivity.class));
+        } else if (id == R.id.nav_msg) {
+            startActivity(new Intent(this, MessagesActivity.class));
 
-        }
-        else if(id==R.id.nav_search){
-            startActivity(new Intent(this,SearchActivity.class));
-        }
-        else if (id == R.id.nav_profile) {
+        } else if (id == R.id.nav_search) {
+            startActivity(new Intent(this, SearchActivity.class));
+        } else if (id == R.id.nav_profile) {
 
-            startActivity(new Intent(this,My_Profile.class));
-        }
-        else if (id == R.id.nav_setting) {
-            startActivity(new Intent(this,Setting.class));
+            startActivity(new Intent(this, My_Profile.class));
+        } else if (id == R.id.nav_setting) {
+            startActivity(new Intent(this, Setting.class));
 
-        }
-        else if (id == R.id.nav_help) {
-            startActivity(new Intent(this,Help.class));
-        }
-        else if (id == R.id.nav_otherpages) {
-            startActivity(new Intent(this,Other_Pages.class));
+        } else if (id == R.id.nav_help) {
+            startActivity(new Intent(this, Help.class));
+        } else if (id == R.id.nav_otherpages) {
+            startActivity(new Intent(this, Other_Pages.class));
 
         }
 
@@ -110,8 +109,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
     }
 
 
-
-    }
+}
 
 
 

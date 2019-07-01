@@ -1,13 +1,15 @@
-package com.example.muslima;
+package com.example.muslima.Activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Setting extends AppCompatActivity {
+import com.example.muslima.R;
+
+public class Help extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_setting);
+        setContentView(R.layout.activity_help);
     }
 }

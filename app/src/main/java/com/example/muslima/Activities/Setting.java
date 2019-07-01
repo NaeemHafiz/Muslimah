@@ -1,13 +1,15 @@
-package com.example.muslima;
+package com.example.muslima.Activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Other_Pages extends AppCompatActivity {
+import com.example.muslima.R;
+
+public class Setting extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_other__pages);
+        setContentView(R.layout.activity_setting);
     }
 }

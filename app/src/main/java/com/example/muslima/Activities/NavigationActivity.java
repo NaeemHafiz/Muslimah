@@ -1,4 +1,4 @@
-package com.example.muslima;
+package com.example.muslima.Activities;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -22,7 +22,8 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Spinner;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import com.example.muslima.R;
 
 import java.util.ArrayList;
 import java.util.List;

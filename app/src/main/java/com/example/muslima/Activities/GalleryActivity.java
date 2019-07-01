@@ -1,4 +1,4 @@
-package com.example.muslima;
+package com.example.muslima.Activities;
 
 import android.content.Intent;
 import android.database.Cursor;
@@ -11,6 +11,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+
+import com.example.muslima.R;
 
 public class GalleryActivity extends AppCompatActivity {
     private static int RESULT_LOAD_IMAGE = 1;

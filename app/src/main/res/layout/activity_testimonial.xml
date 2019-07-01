@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".TestimonialActivity">
+    tools:context=".Activities.TestimonialActivity">
 
     <TextView
         android:id="@+id/tv_thanksmuslima"

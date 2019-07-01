@@ -6,7 +6,7 @@
     android:layout_height="fill_parent"
     android:orientation="vertical"
     android:background="@drawable/bck2"
-    tools:context=".GalleryActivity">
+    tools:context=".Activities.GalleryActivity">
     <ImageView
         android:id="@+id/image_gallery"
         android:layout_width="fill_parent"

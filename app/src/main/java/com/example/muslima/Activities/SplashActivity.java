@@ -1,4 +1,4 @@
-package com.example.muslima;
+package com.example.muslima.Activities;
 
 import android.content.Intent;
 import android.os.Handler;
@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+
+import com.example.muslima.R;
 
 public class SplashActivity extends AppCompatActivity {
     ImageView image_splash;
@@ -20,7 +22,7 @@ public class SplashActivity extends AppCompatActivity {
         setContentView(R.layout.activity_splash);
         image_splash = findViewById(R.id.image_splash);
         progress_bar = findViewById(R.id.progress_bar);
-        tv_azwaj=findViewById(R.id.tv_azwaj);
+        tv_azwaj = findViewById(R.id.tv_azwaj);
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
