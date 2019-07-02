@@ -263,14 +263,14 @@
                             android:text="Select age"
                             android:textSize="14dp" />
 
-                        <Spinner
-                            android:id="@+id/spinner_age"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="10dp"
-                            android:padding="5dp">
+                        <!--<Spinner-->
+                        <!--android:id="@+id/spinner_age"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_marginLeft="10dp"-->
+                        <!--android:padding="5dp">-->
 
-                        </Spinner>
+                        <!--</Spinner>-->
 
 
                     </LinearLayout>
@@ -290,41 +290,41 @@
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
-                <Spinner
-                    android:id="@+id/spinner_country"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginRight="20dp"
-                    android:background="@drawable/eidtetext_rounded"
-                    android:padding="10dp">
+                <!--<Spinner-->
+                <!--android:id="@+id/spinner_country"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:layout_marginRight="20dp"-->
+                <!--android:background="@drawable/eidtetext_rounded"-->
+                <!--android:padding="10dp">-->
 
-                </Spinner>
+                <!--</Spinner>-->
 
-                <Spinner
-                    android:id="@+id/spinner_province"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginRight="20dp"
-                    android:background="@drawable/eidtetext_rounded"
-                    android:padding="10dp">
+                <!--<Spinner-->
+                <!--android:id="@+id/spinner_province"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:layout_marginRight="20dp"-->
+                <!--android:background="@drawable/eidtetext_rounded"-->
+                <!--android:padding="10dp">-->
 
-                </Spinner>
+                <!--</Spinner>-->
 
-                <Spinner
-                    android:id="@+id/spinner_cities"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginRight="20dp"
-                    android:background="@drawable/eidtetext_rounded"
-                    android:padding="10dp">
+                <!--<Spinner-->
+                <!--android:id="@+id/spinner_cities"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:layout_marginRight="20dp"-->
+                <!--android:background="@drawable/eidtetext_rounded"-->
+                <!--android:padding="10dp">-->
 
-                </Spinner>
+                <!--</Spinner>-->
 
                 <TextView
                     android:id="@+id/tv_email"
@@ -605,12 +605,7 @@
 
 
             </LinearLayout>
-
-
         </LinearLayout>
-
-
     </ScrollView>
-
 
 </RelativeLayout>
