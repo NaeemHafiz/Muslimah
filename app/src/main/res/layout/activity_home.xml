@@ -17,11 +17,7 @@
 
         <include
             android:id="@+id/toolbar1"
-            layout="@layout/hometoolbar">
-
-        </include>
-
-
+            layout="@layout/hometoolbar" />
     </RelativeLayout>
 
     <android.support.design.widget.NavigationView
@@ -30,7 +26,5 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
-        app:menu="@menu/homenavigation">
-
-    </android.support.design.widget.NavigationView>
+        app:menu="@menu/homenavigation" />
 </android.support.v4.widget.DrawerLayout>
