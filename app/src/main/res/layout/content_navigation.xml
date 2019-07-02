@@ -127,7 +127,7 @@
                     android:layout_weight="1"
                     android:gravity="center"
                     android:text="I am a"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -137,7 +137,7 @@
                     android:layout_marginLeft="110dp"
                     android:gravity="center"
                     android:text="I am Looking for"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:textStyle="bold" />
 
             </LinearLayout>
@@ -242,41 +242,17 @@
                     android:textColor="#000"
                     android:textSize="20sp"
                     android:textStyle="bold" />
-
-                <android.support.v7.widget.CardView
+                <EditText
+                    android:id="@+id/et_age"
                     android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:layout_marginLeft="15dp"
-                    android:layout_marginRight="15dp"
-                    app:cardCornerRadius="10dp">
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/eidtetext_rounded"
+                    android:hint="Enter age "
+                    android:padding="10dp"
+                    android:textColor="#000" />
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:weightSum="2">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1.8"
-                            android:padding="10dp"
-                            android:text="Select age"
-                            android:textSize="14dp" />
-
-                        <!--<Spinner-->
-                        <!--android:id="@+id/spinner_age"-->
-                        <!--android:layout_width="wrap_content"-->
-                        <!--android:layout_height="wrap_content"-->
-                        <!--android:layout_marginLeft="10dp"-->
-                        <!--android:padding="5dp">-->
-
-                        <!--</Spinner>-->
-
-
-                    </LinearLayout>
-
-
-                </android.support.v7.widget.CardView>
 
 
                 <TextView
@@ -289,42 +265,44 @@
                     android:textColor="#000"
                     android:textSize="20sp"
                     android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/et_country"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/eidtetext_rounded"
+                    android:hint="Enter Country"
+                    android:padding="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#000" />
+                <EditText
+                    android:id="@+id/et_province"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/eidtetext_rounded"
+                    android:hint="Enter Province"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:textColor="#000" />
+                <EditText
+                    android:id="@+id/et_city"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/eidtetext_rounded"
+                    android:hint="Enter City"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:textColor="#000" />
 
-                <!--<Spinner-->
-                <!--android:id="@+id/spinner_country"-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:layout_marginLeft="20dp"-->
-                <!--android:layout_marginTop="20dp"-->
-                <!--android:layout_marginRight="20dp"-->
-                <!--android:background="@drawable/eidtetext_rounded"-->
-                <!--android:padding="10dp">-->
 
-                <!--</Spinner>-->
 
-                <!--<Spinner-->
-                <!--android:id="@+id/spinner_province"-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:layout_marginLeft="20dp"-->
-                <!--android:layout_marginTop="20dp"-->
-                <!--android:layout_marginRight="20dp"-->
-                <!--android:background="@drawable/eidtetext_rounded"-->
-                <!--android:padding="10dp">-->
 
-                <!--</Spinner>-->
 
-                <!--<Spinner-->
-                <!--android:id="@+id/spinner_cities"-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:layout_marginLeft="20dp"-->
-                <!--android:layout_marginTop="20dp"-->
-                <!--android:layout_marginRight="20dp"-->
-                <!--android:background="@drawable/eidtetext_rounded"-->
-                <!--android:padding="10dp">-->
-
-                <!--</Spinner>-->
 
                 <TextView
                     android:id="@+id/tv_email"
