@@ -41,7 +41,6 @@ public class NavigationActivity extends AppCompatActivity
     CheckBox chkbox_1;
     NavigationView nav_view;
     Toolbar toolbar;
-    Spinner spinner_age, spinner_country, spinner_province, spinner_cities;
 
 
     @Override
@@ -51,11 +50,6 @@ public class NavigationActivity extends AppCompatActivity
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         customview = findViewById(R.id.customView);
-        spinner_age = findViewById(R.id.spinner_age);
-        spinner_country = findViewById(R.id.spinner_country);
-        spinner_province = findViewById(R.id.spinner_province);
-        spinner_cities = findViewById(R.id.spinner_cities);
-
         tv_desc = findViewById(R.id.tv_desc);
         tv_desc2 = findViewById(R.id.tv_desc2);
         tv_im = findViewById(R.id.tv_im);
@@ -138,124 +132,6 @@ public class NavigationActivity extends AppCompatActivity
         });
 
 
-        Spinner spinner = findViewById(R.id.spinner_age);
-        List<String> list = new ArrayList<String>();
-        list.add("1");
-        list.add("2");
-        list.add("3");
-        list.add("4");
-        list.add("4");
-        list.add("5");
-        list.add("6");
-        list.add("7");
-        list.add("8");
-        list.add("9");
-        list.add("10");
-        list.add("11");
-        list.add("12");
-        list.add("13");
-        list.add("14");
-        list.add("15");
-        list.add("16");
-        list.add("17");
-        list.add("18");
-        list.add("19");
-        list.add("20");
-        list.add("21");
-        list.add("22");
-        list.add("23");
-        list.add("24");
-        list.add("25");
-        list.add("26");
-        list.add("27");
-        list.add("28");
-        list.add("29");
-        list.add("30");
-        list.add("31");
-        list.add("32");
-        list.add("33");
-        list.add("34");
-        list.add("35");
-        list.add("36");
-        list.add("37");
-        list.add("38");
-        list.add("39");
-        list.add("40");
-
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, list);
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        spinner.setAdapter(adapter);
-
-        Spinner spinner1 = findViewById(R.id.spinner_country);
-        List<String> list1 = new ArrayList<String>();
-        list1.add("Pakistan");
-        list1.add("India");
-        list1.add("Australia");
-        list1.add("England");
-        list1.add("New zeland");
-        list1.add("Bangladesh");
-        ArrayAdapter<String> adapter1 = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, list1);
-        adapter1.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        spinner1.setAdapter(adapter1);
-
-        Spinner spinner2 = findViewById(R.id.spinner_province);
-        List<String> list2 = new ArrayList<>();
-        list2.add("Azad Kashmir");
-        list2.add("Balochistan");
-        list2.add("Fed.Admin Tribal Areas");
-        list2.add("Islamabad");
-        list2.add("Northern Areas");
-        list2.add("North-West Frontier");
-        list2.add("Punjab");
-        list2.add("Sindh");
-        ArrayAdapter<String> adapter2 = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, list2);
-        adapter2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        spinner2.setAdapter(adapter2);
-
-
-        Spinner spinner3 = findViewById(R.id.spinner_cities);
-        List<String> list3 = new ArrayList<>();
-        list3.add("Lahore");
-        list3.add("Lala Mosa");
-        list3.add("Lelah");
-        list3.add("Lodhran");
-        list3.add("Mailsi");
-        list3.add("Mandi Bahuddin");
-        list3.add("Mian Channun");
-        list3.add("Mianwali");
-        list3.add("Multan");
-        list3.add("Muridke");
-        list3.add("Muzaffargarh");
-        list3.add("Nankana Sahib");
-        list3.add("Narowal");
-        list3.add("Okara");
-        list3.add("Pakpattan");
-        list3.add("pasrur");
-        list3.add("pattoki");
-        list3.add("Qilla Didar Singh");
-        list3.add("Rabwah");
-        list3.add("Rahim Yar Khan");
-        list3.add("Rajanpur");
-        list3.add("Rawalpindi Cantonment");
-        list3.add("Sadiqabad");
-        list3.add("Sahiwal");
-        list3.add("Sambrial");
-        list3.add("Samundri");
-        list3.add("Sangla");
-        list3.add("Sargodha");
-        list3.add("Shakargarh");
-        list3.add("Sheikhupura");
-        list3.add("Shorkot");
-        list3.add("Shujaabad");
-        list3.add("Sialkot");
-        list3.add("Taxila");
-        list3.add("Toba Tek Singh");
-        list3.add("Vihari");
-        list3.add("Wah");
-        list3.add("Wazirabad");
-        ArrayAdapter<String> adapter3 = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, list3);
-        adapter3.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        spinner3.setAdapter(adapter3);
 
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
