@@ -19,4 +19,13 @@ public class MyProfileActivity extends AppCompatActivity {
         startActivity(new Intent(this, MyNewProfileActivity.class));
     }
 
+
+    public void moveToInterestActivity(View view) {
+        startActivity(new Intent(MyProfileActivity.this, InterestActivity.class));
+    }
+
+    public void movetoverifyprofile(View view) {
+        startActivity(new Intent(MyProfileActivity.this, ViewProfileActivity.class));
+
+    }
 }

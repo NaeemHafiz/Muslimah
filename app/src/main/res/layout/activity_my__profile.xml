@@ -161,6 +161,7 @@
                         android:layout_marginTop="10sp"
                         android:drawableRight="@drawable/ic_chevron_right_black_24dp"
                         android:padding="5dp"
+                        android:onClick="moveToInterestActivity"
                         android:text="Interest"
                         android:textSize="18sp" />
 
@@ -180,7 +181,8 @@
                         android:layout_marginTop="10sp"
                         android:drawableRight="@drawable/ic_chevron_right_black_24dp"
                         android:padding="5dp"
-                        android:text="Verify Photo"
+                        android:onClick="movetoverifyprofile"
+                        android:text="Verify Profile"
                         android:textSize="18sp" />
 
                 </android.support.v7.widget.CardView>

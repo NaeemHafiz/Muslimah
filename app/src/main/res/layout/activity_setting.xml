@@ -25,6 +25,7 @@
                 android:layout_marginTop="10sp"
                 android:drawableRight="@drawable/ic_chevron_right_black_24dp"
                 android:padding="5dp"
+                android:onClick="changeemail"
                 android:text="Email Address"
                 android:textSize="18sp" />
 
@@ -45,6 +46,7 @@
                 android:drawableRight="@drawable/ic_chevron_right_black_24dp"
                 android:padding="5dp"
                 android:text="password"
+                android:onClick="changepassword"
                 android:textSize="18sp" />
 
         </android.support.v7.widget.CardView>
@@ -63,6 +65,7 @@
                 android:layout_marginTop="10sp"
                 android:drawableRight="@drawable/ic_chevron_right_black_24dp"
                 android:padding="5dp"
+                android:onClick="profilesetting"
                 android:text="Profile Setting"
                 android:textSize="18sp" />
 
