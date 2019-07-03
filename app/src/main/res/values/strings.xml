@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">Al-Azwaj</string>
+    <string name="change_password">To help keep your account secure we recommend that you routinely change your password.</string>
+    <string name="change_email">Please update your email if it has changed so you do not miss any communications or match alerts.</string>
+    <string name="verify_profile">The information you provide is only for profile verification and is not shared with other members or third parties.</string>
+    <string name="text">What do you for fun/ Entertainment?<br>Antiques, Arts/Painting,Astrology,Ballet</br></string>
     <string name="title_activity_navigation">NavigationActivity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -10,11 +14,12 @@
     <string name="ProfileText">Answering these profile questions will help other users find you in search results and help us to find you to more accurate matches.</string>
     <string name="styled_welcome_message">yes,I Agree to the <b><i>Terms of use</i></b> and  <b><i>Privacy statement.</i></b>  </string>
     <string name="why_choose_muslima">
-    Muslima.com has helped thousands of Muslim singles to find their match. As one of the leading islamic matrimonnial sites. We are one of the largest and most trusted sites around.Not many others sites can offer you a membership database of over 4.5 million members with the
+    Alazwaj.com has helped thousands of Muslim singles to find their match. As one of the leading islamic matrimonnial sites. We are one of the largest and most trusted sites around.Not many others sites can offer you a membership database of over 4.5 million members with the
     promise of introducing to a singl>e Muslim men and women across the world.</string>
     <string name="muslima_matrimonial">International Muslim Matrimonials - Trusted By Over 4.5 Million Muslims</string>
-    <string name="muslim_singlee">Muslima.com is part of well_established cupid Media network that operates over 30 reputable niche sites. Unlike other sites our site is purely for those seeking Muslim singles for marriage in a manner that adheres to islamic rules on courtship.</string>
-    <string name="Success_story">As a premier site for the muslim marriages, we successfully bring together singles from around the world.Since 2006,thousands of happy men and women have met theor soul mates on Muslima.com and have shared thier success stories with us.Check out the many success stories<b><i> here.</i></b></string>
+    <string name="muslim_singlee">AlAzwaj.com is part of well_established cupid Media network that operates over 30 reputable niche sites. Unlike other sites our site is purely for those seeking Muslim singles for marriage in a manner that adheres to islamic rules on courtship.</string>
+    <string name="Success_story">As a premier site for the muslim marriages, we successfully bring together singles from around the world.Since 2006,thousands of happy men and women have met theor soul mates on Alazwaj.com and have shared thier success stories with us.Check out the many success stories<b><i> here.</i></b></string>
     <string name="help">Let us help you fulfill your faith and earn your reward from Allah(swt).<b><i>Join free today.</i></b></string>
     <string name="msgdescp">But don,t worry! We have so many members looking for love, you,re sure to recieve messages soon.The best way to increase your  vhnances of recieving messages is to:</string>
+    <string name="interests">Lets other knows what your interest are and help us connect you with other users that may have similar interests</string>
 </resources>

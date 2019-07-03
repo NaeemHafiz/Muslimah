@@ -33,6 +33,10 @@
             android:id="@+id/nav_otherpages"
             android:title="Other Pages"
             android:icon="@drawable/otheerpages"/>
+        <item
+            android:id="@+id/nav_webview"
+            android:title="Visit Website"
+            android:icon="@drawable/otheerpages"/>
 
 
     </group>

@@ -100,7 +100,8 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
             startActivity(new Intent(this, HelpActivity.class));
         } else if (id == R.id.nav_otherpages) {
             startActivity(new Intent(this, OtherPageActivity.class));
-
+        } else if (id == R.id.nav_webview) {
+            startActivity(new Intent(this, OtherPagesWebViewActivity.class));
         }
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout2);
