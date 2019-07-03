@@ -10,7 +10,12 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activities.OtherPagesWebViewActivity"></activity>
+        <activity android:name=".Activities.PrivacyActivity"></activity>
+        <activity android:name=".Activities.TermsActivity" />
+        <activity android:name=".Activities.SuccesStoryActivity" />
+        <activity android:name=".Activities.ContactusActivity" />
+        <activity android:name=".Activities.AboutusActivity" />
+        <activity android:name=".Activities.OtherPagesWebViewActivity" />
         <activity android:name=".Activities.SuccessStoryActivity" />
         <activity android:name=".Activities.InterestActivity" />
         <activity android:name=".Activities.NotificationActivity" />
