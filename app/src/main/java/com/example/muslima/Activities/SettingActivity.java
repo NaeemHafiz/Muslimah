@@ -26,4 +26,8 @@ public class SettingActivity extends AppCompatActivity {
     public void profilesetting(View view) {
         startActivity(new Intent(this, ProfileSettingActivity.class));
     }
+
+    public void MoveToNotications(View view) {
+        startActivity(new Intent(this, NotificationActivity.class));
+    }
 }

@@ -128,44 +128,6 @@
 
                 </android.support.v7.widget.CardView>
 
-                <android.support.v7.widget.CardView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="17dp"
-                    app:cardCornerRadius="10dp">
-
-                    <TextView
-                        android:id="@+id/tv_match"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10sp"
-                        android:layout_marginTop="10sp"
-                        android:drawableRight="@drawable/ic_chevron_right_black_24dp"
-                        android:padding="5dp"
-                        android:text="Match"
-                        android:textSize="18sp" />
-
-                </android.support.v7.widget.CardView>
-
-                <android.support.v7.widget.CardView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="17dp"
-                    app:cardCornerRadius="10dp">
-
-                    <TextView
-                        android:id="@+id/tv_interest"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10sp"
-                        android:layout_marginTop="10sp"
-                        android:drawableRight="@drawable/ic_chevron_right_black_24dp"
-                        android:padding="5dp"
-                        android:onClick="moveToInterestActivity"
-                        android:text="Interest"
-                        android:textSize="18sp" />
-
-                </android.support.v7.widget.CardView>
 
                 <android.support.v7.widget.CardView
                     android:layout_width="match_parent"

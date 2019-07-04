@@ -22,4 +22,7 @@
     <string name="help">Let us help you fulfill your faith and earn your reward from Allah(swt).<b><i>Join free today.</i></b></string>
     <string name="msgdescp">But don,t worry! We have so many members looking for love, you,re sure to recieve messages soon.The best way to increase your  vhnances of recieving messages is to:</string>
     <string name="interests">Lets other knows what your interest are and help us connect you with other users that may have similar interests</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
