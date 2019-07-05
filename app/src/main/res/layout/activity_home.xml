@@ -4,21 +4,78 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/drawer_layout2"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     tools:context=".Activities.HomeActivity">
 
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/r_layout"
         android:layout_width="match_parent"
+        android:orientation="vertical"
         android:layout_height="match_parent"
         tools:context=".Activities.HomeActivity">
-
         <include
             android:id="@+id/toolbar1"
             layout="@layout/hometoolbar" />
-    </RelativeLayout>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="4"
+            android:background="#D6D7D7"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:src="@drawable/baseline_message_black_48" />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:src="@drawable/baseline_message_black_48" />
+
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:src="@drawable/baseline_star_rate_black_48" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/baseline_visibility_black_48" />
+        </LinearLayout>
+<android.support.v7.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+
+</android.support.v7.widget.RecyclerView>
+
+
+    </LinearLayout>
+</ScrollView>
+    </LinearLayout>
 
     <android.support.design.widget.NavigationView
         android:id="@+id/navview_home"

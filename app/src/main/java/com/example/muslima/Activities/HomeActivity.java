@@ -30,7 +30,6 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         toolbar1 = findViewById(R.id.toolbar1);
         setSupportActionBar(toolbar1);
         drawer_layout2 = findViewById(R.id.drawer_layout2);
-        r_layout = findViewById(R.id.r_layout);
         navview_home = findViewById(R.id.navview_home);
         navview_home.setNavigationItemSelectedListener(this);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(

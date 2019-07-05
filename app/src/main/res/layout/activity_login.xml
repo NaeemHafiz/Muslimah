@@ -64,7 +64,7 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="20dp"
                 android:background="@drawable/eidtetext_rounded"
-                android:hint="your Muslima password"
+                android:hint="your Alazwaj Password"
                 android:padding="10dp" />
 
             <LinearLayout

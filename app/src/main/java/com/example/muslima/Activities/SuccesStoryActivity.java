@@ -17,7 +17,7 @@ public class SuccesStoryActivity extends AppCompatActivity {
 
         webView_success =  findViewById(R.id.webview_success);
         webView_success.setWebViewClient(new WebViewClient());
-        webView_success.loadUrl("http://alazwaj.pk/Testimonials");
+        webView_success.loadUrl("http://alazwaj.pk/Contents/pages/About-Us");
 
         WebSettings webSettings = webView_success.getSettings();
         webSettings.setJavaScriptEnabled(true);

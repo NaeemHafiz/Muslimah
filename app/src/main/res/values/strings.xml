@@ -11,6 +11,8 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+    <string name="currentmembership">You are currently a<b><i> free standard member.</i></b> To enjoy all premium membership benefits please upgrade your membership. </string>
+
     <string name="ProfileText">Answering these profile questions will help other users find you in search results and help us to find you to more accurate matches.</string>
     <string name="styled_welcome_message">yes,I Agree to the <b><i>Terms of use</i></b> and  <b><i>Privacy statement.</i></b>  </string>
     <string name="why_choose_muslima">
